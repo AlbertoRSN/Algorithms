@@ -54,12 +54,14 @@ class Program{
         for (i=1; i < numbers.Length; i++){
                 key = numbers [i]; //the second value of the array
                 value = i - 1; //the first value of the array
-                comparisons++;
+                
                 while (value >= 0 && numbers[value] > key){
                     //insertion of tahe correct number
                     numbers [value + 1] = numbers [value];
                     value = value - 1;
                     swaps++;
+                    comparisons++;
+
                 }
                 
                 numbers [value + 1] = key;
@@ -74,6 +76,7 @@ class Program{
    
    
    //--------- SELECTION SORT -----------
+   /*
    public static int getMin(int[] arr, int start)
         {
             int min = arr[start];
@@ -86,16 +89,29 @@ class Program{
                 }
             return minIndex;
         }
-
+    */
         public static int[] sortBySelection(int[] arr)
         {
             int comparisons = 0;
             long swaps = 0;
-            int minIndex;
+            
+            int minIndex = 0;
+            int min = arr[0];
+            
             for (int i = 0; i < arr.Length; i++)
             {
                 int tmp = arr[i];
-                minIndex = getMin(arr, i);
+                //minIndex = getMin(arr, i);
+                
+                for (int j = i + 1; j < arr.Length; j++){
+                    comparisons++;
+                    if (arr[j] < min)
+                    {
+                        min = arr[j];
+                        minIndex = j;
+                    }
+                }
+                
                 if (i != minIndex)
                 {
                    arr[i] = arr[minIndex];
@@ -169,6 +185,7 @@ class Program{
     }
     
 }
+
 
 
 
