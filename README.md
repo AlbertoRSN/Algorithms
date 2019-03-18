@@ -8,8 +8,7 @@
 *  *sortingAlgorithms.cs* - program that contains differents **sorting algorithms**:
 	* **Bubble Sort**  
 	```C#
-	// ------- BUBBLE SORT --------
-        public static int[] BubleSort(int[] tab){
+      public static int[] BubleSort(int[] tab){
             int n = tab.Length;
             int comparisons = 0;
             int swaps = 0;
@@ -67,7 +66,7 @@
 	```
 	* **Insertion Sort**  
 	```C#
-	
+
 	public static int[] insertionSort(int[] numbers){ 
         int i, key, value;
         int comparisons = 0;
