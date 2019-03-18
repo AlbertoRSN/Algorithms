@@ -67,8 +67,7 @@
 	```
 	* **Insertion Sort**  
 	```C#
-	public static int[] insertionSort(int[] numbers)
-  { 
+	public static int[] insertionSort(int[] numbers){ 
         int i, key, value;
         int comparisons = 0;
         long swaps = 0;
@@ -91,7 +90,7 @@
         
         Console.WriteLine("comparisons: {0}, Swaps: {1}", comparisons, swaps);
         return numbers;
-   } 
+    }
 	```
 
 	* Output: ![sortingAlgorithms](imgs/output2.png)
