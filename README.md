@@ -12,8 +12,10 @@
 
 	* Output: ![sortingAlgorithms](imgs/output2.png)
 
-*  *binarySearchSorted.cs* - program to find the **target number** using **binary seach** in an array sorted with **insertion** algorithm.
-	* Output:  ![binarySearchSorted](imgs/output1.png)
+*  *guessTheNumber.cs* - the computer "think" random number between **[min,max]** and you have to guess the number.
+	* Output:  ![guessTheNumber](imgs/output3.png)
+
+	
 
 
 
