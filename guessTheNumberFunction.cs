@@ -37,24 +37,20 @@ class Program {
 
   static void Main() {
       
-    int a = 0;  int b = 2000;
+    int a = 0;  int b = 400;
     Console.WriteLine("a = {0}, b = {1}, steps = {2}, ", a, b,  GuessTheNumber(a, b));
     
-    a = 0;  b = 1000;
+    a = 0;  b = 800;
     Console.WriteLine("a = {0}, b = {1}, steps = {2}, ", a, b,  GuessTheNumber(a, b));
 
-    a = 0;  b = 10000;
+    a = 0;  b = 1200;
     Console.WriteLine("a = {0}, b = {1}, steps = {2}, ", a, b,  GuessTheNumber(a, b));
     
-    a = 0;  b = 100000;
+    a = 0;  b = 1600;
     Console.WriteLine("a = {0}, b = {1}, steps = {2}, ", a, b,  GuessTheNumber(a, b));
     
-    a = 0;  b = 1000000;
+    a = 0;  b = 2000;
     Console.WriteLine("a = {0}, b = {1}, steps = {2}, ", a, b,  GuessTheNumber(a, b));
 
-    a = 0;  b = 1000000000;
-    Console.WriteLine("a = {0}, b = {1}, steps = {2}, ", a, b,  GuessTheNumber(a, b));
-
-    Console.WriteLine(Math.Pow(2,14));
   }
 }
