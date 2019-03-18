@@ -12,10 +12,13 @@
 
 	* Output: ![sortingAlgorithms](imgs/output2.png)
 
+*  *binarySearchSorted.cs* - program to find the **target number** using **binary seach** in an array sorted with **insertion** algorithm.
+	* Output:  ![binarySearchSorted](imgs/output1.png)
 
 
 
-#### How to compile the programs in macOS?**
+
+#### How to compile the programs in macOS?
 
 ```cmd
 mcs -out:hello.exe sortingAlgorithms.cs 
