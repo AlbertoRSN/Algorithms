@@ -99,7 +99,8 @@
 *  *guessTheNumber.cs* - the computer "think" random number between **[min,max]** and you have to guess the number.
 	* Output:  ![guessTheNumber](imgs/output3.png)
 
-
+*  *guessTheNumberFunction.cs* - the computer "think" random number with binary search, it looks for the target number and display how many steps to find it for different array's dimension.
+    * Output:  ![guessTheNumberFunction](imgs/output4.png)
 
 
 #### How to compile the programs in macOS?
